@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dfe4ea;
+  height: 80%;
+}
+.saat {
+  margin-top: 150px;
+  border: solid 25px brown;
+  width: 70%;
+  background-color: black;
+}
+.text {
+  font-size: 15rem;
+  color: green;
+}
+.play-pause,
+.stop {
+  font-size: 8rem;
+  color: #3742fa;
+
+}
+
+@media screen and (max-width: 902px) {
+  .text {
+    font-size: 7rem;
+    color: green;
+  }
+  .play-pause,
+  .stop {
+    font-size: 5rem;
+    color: #3742fa;
+
+  }
+  .saat {
+    border: solid 20px brown;
+    width: 80%;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text {
+    font-size: 5rem;
+    color: green;
+  }
+  .play-pause,
+  .stop {
+    font-size: 3rem;
+    color: #3742fa;
+  }
+  .saat {
+    border: solid 15px brown;
+    width: 80%;
+    margin-top: 150px;
+  }
+}
